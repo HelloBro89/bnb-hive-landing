@@ -1,0 +1,59 @@
+body {
+  background-color: black;
+  background-image: url('../assets/pattern.svg');
+  background-size: 150px 150px;
+}
+
+.navbar {
+  height: 120px;
+  background-color: #f7b238;
+}
+
+.logo {
+  width: 100px;
+}
+
+.navbar img {
+  width: 60px;
+}
+
+.custom__brand {
+  margin-top: 10px;
+  color: #000;
+  font-size: 42px;
+  font-weight: 700;
+  font-family: Jolly Lodger, cursive;
+}
+
+.navbar:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  bottom: -110px;
+  height: 110px;
+  background-image: url('../assets/honey-smudges.svg');
+  background-repeat: repeat-x;
+  z-index: -1;
+}
+
+.navbar > .container,
+.navbar > .container-fluid,
+.navbar > .container-lg,
+.navbar > .container-md,
+.navbar > .container-sm,
+.navbar > .container-xl,
+.navbar > .container-xxl {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 17%;
+}
+
+.keywords__title {
+  font-size: 42px;
+  font-weight: 700;
+  margin-top: 10px;
+  text-align: left;
+  margin-right: 20%;
+}
