@@ -10,7 +10,8 @@ body {
 
 .navbar {
   height: auto;
-  background-color: #f7b238;
+  /* background-color: #f7b238; */
+  background-color: #38f7ae;
 }
 
 .navbar img {
