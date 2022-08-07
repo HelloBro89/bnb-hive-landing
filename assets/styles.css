@@ -170,6 +170,7 @@ main {
     padding-right: 10px;
   }
   .subtitle {
+    background-color: burlywood ;
     font-size: 18px;
     font-weight: 500;
   }
