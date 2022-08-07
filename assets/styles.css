@@ -17,7 +17,7 @@ body {
   width: 60px;
 }
 
-.logo_block{
+.logo_block {
 }
 
 .insta_logo {
@@ -169,7 +169,10 @@ main {
     padding-top: 15px;
     padding-right: 10px;
   }
-
+  .subtitle {
+    font-size: large;
+    font-weight: 500;
+  }
   .logo_block {
     margin-top: 15px;
     margin-right: 20px;
