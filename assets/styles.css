@@ -10,8 +10,8 @@ body {
 
 .navbar {
   height: auto;
-  /* background-color: #f7b238; */
-  background-color: #38f7ae;
+  background-color: #f7b238;
+  /* background-color: #38f7ae; */
 }
 
 .navbar img {
@@ -171,9 +171,8 @@ main {
     padding-right: 10px;
   }
   .subtitle {
-    background-color: burlywood ;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 19px;
+    font-weight: 600;
   }
   .logo_block {
     margin-top: 15px;
