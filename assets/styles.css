@@ -115,6 +115,10 @@ body {
   border-radius: 5px;
 }
 
+.main_content_footer {
+  font-size: 20px;
+}
+
 @media only screen and (min-width: 993px) {
   .fire_left {
     margin-right: 20px;
@@ -125,23 +129,27 @@ body {
 }
 
 @media only screen and (max-width: 992px) {
-  .main_title {
-    font-size: 34px;
-  }
   .fire_img {
     width: 70px;
   }
-  .fire_block {
-    width: 15%;
-  }
   .main_title {
     width: 70%;
+    font-size: 34px;
   }
   .main_content_custom_row {
     width: 93%;
   }
+  .main_content_footer {
+    font-size: 18px;
+    font-weight: 500;
+  }
 }
 @media only screen and (max-width: 576px) {
+  .main_content_footer {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+  }
   .main_title {
     font-size: 22px;
   }
