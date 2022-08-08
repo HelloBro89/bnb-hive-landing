@@ -6,6 +6,7 @@ body {
   background-color: rgb(29, 27, 27);
   background-image: url('../assets/pattern.svg');
   background-size: 150px 150px;
+  font-size: calc(12px + 0.3vw);
 }
 
 .navbar {
@@ -51,11 +52,22 @@ body {
 .custom__brand {
   margin-top: 10px;
   color: #000;
-  font-size: 40px;
+  font-size: 80px;
   font-weight: 700;
   font-family: Jolly Lodger, cursive;
   text-align: left;
 }
+@media only screen and (max-width: 992px) {
+  .custom__brand {
+    font-size: 68px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .custom__brand {
+    font-size: 48px;
+  }
+}
+
 .main_color {
   color: #f7b238;
 }
@@ -103,10 +115,13 @@ body {
   border-radius: 5px;
 }
 
-@media only screen and (min-width: 992px) {
-.fire_left {
-  /* margin-right: 80px; */
-}
+@media only screen and (min-width: 993px) {
+  .fire_left {
+    margin-right: 20px;
+  }
+  .fire_right {
+    margin-left: 20px;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -167,7 +182,7 @@ main {
   margin-top: 10px;
   margin-bottom: 7px;
   font-weight: 500;
-  font-size: medium;
+  font-size: large;
 }
 
 @media only screen and (max-width: 576px) {
@@ -182,8 +197,8 @@ main {
     padding-right: 10px;
   }
   .subtitle {
-    font-size: 19px;
-    font-weight: 600;
+    font-size: 17px;
+    font-weight: 500;
   }
   .logo_block {
     margin-top: 15px;
