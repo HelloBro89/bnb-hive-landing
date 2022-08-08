@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: black;
+  background-color: rgb(29, 27, 27);
   background-image: url('../assets/pattern.svg');
   background-size: 150px 150px;
 }
@@ -51,11 +51,15 @@ body {
 .custom__brand {
   margin-top: 10px;
   color: #000;
-  font-size: 42px;
+  font-size: 40px;
   font-weight: 700;
   font-family: Jolly Lodger, cursive;
   text-align: left;
 }
+.main_color {
+  color: #f7b238;
+}
+
 .keywords__title {
   width: auto;
   line-height: 1;
@@ -71,7 +75,9 @@ body {
 }
 
 /* * -------------------------------------- MAIN HEADER -----------------------------------*/
-
+.legend_img {
+  width: 100%;
+}
 .main_content {
   margin-top: 120px;
   color: white;
@@ -95,6 +101,12 @@ body {
   margin-right: auto;
   background-color: #f7b238;
   border-radius: 5px;
+}
+
+@media only screen and (min-width: 992px) {
+.fire_left {
+  /* margin-right: 80px; */
+}
 }
 
 @media only screen and (max-width: 992px) {
@@ -129,6 +141,9 @@ body {
   }
   .main_content_custom_row {
     width: 90%;
+  }
+  .legend_img {
+    width: 80%;
   }
 }
 
@@ -173,5 +188,40 @@ main {
   .logo_block {
     margin-top: 15px;
     margin-right: 20px;
+  }
+}
+
+/* * ------------------------------- COMMISION --------------------------------------------  */
+.glass_bees_img {
+  max-width: 150px;
+  width: 50%;
+}
+.strategy_bees_img {
+  max-width: 300px;
+  width: 70%;
+}
+.strategy_block_title {
+  border: 3px solid #f7b238;
+  border-radius: 5px;
+  margin-top: 35px;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media only screen and (max-width: 576px) {
+  .glass_bees_img {
+    width: 40%;
+  }
+  .strategy_block_title {
+    margin-top: -120px;
+  }
+
+  .strategy_bees_img {
+    transform: rotate(0.15turn);
+    width: 45%;
+    margin-bottom: 20px;
+    margin-right: 110px;
+    text-align: start;
   }
 }
