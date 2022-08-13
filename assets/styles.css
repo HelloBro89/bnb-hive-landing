@@ -200,6 +200,20 @@ main {
   font-size: large;
 }
 
+.insta_logo:hover {
+  border-radius: 20px;
+  box-shadow: 0px 0px 25px 5px rgba(214, 37, 195, 1);
+}
+
+.telegram_logo:hover {
+  border-radius: 20px;
+  box-shadow: 0px 0px 25px 5px rgb(58, 183, 255);
+}
+.facebook_logo:hover {
+  border-radius: 20px;
+  box-shadow: 0px 0px 25px 5px rgb(0, 107, 207);
+}
+
 @media only screen and (max-width: 576px) {
   .legend_block_text {
     padding-left: 0px;
@@ -251,8 +265,8 @@ main {
   .strategy_bees_img {
     transform: rotate(0.15turn);
     width: 45%;
-    margin-bottom: 20px;
-    margin-right: 110px;
+    margin-bottom: 30px;
+    margin-right: 130px;
     text-align: start;
   }
 }
@@ -271,7 +285,7 @@ main {
   .strategy_bees_img {
     transform: rotate(0.15turn);
     width: 45%;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     margin-right: 110px;
     text-align: start;
   }
